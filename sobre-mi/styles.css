@@ -1,0 +1,74 @@
+/* Estilos para el encabezado */
+
+header {
+    background-color: #333;
+    /* Fondo oscuro */
+    color: #fff;
+    /* Texto blanco */
+    text-align: center;
+    /* Texto centrado */
+    padding: 20px;
+    /* Espaciado interno */
+}
+
+
+/* Estilos para los artículos */
+
+article {
+    margin-bottom: 20px;
+    /* Espaciado inferior entre artículos */
+    padding: 10px;
+    /* Espaciado interno de los artículos */
+    border: 1px solid #ccc;
+    /* Borde alrededor de los artículos */
+}
+
+
+/* Estilos para los títulos de los artículos */
+
+article h2 {
+    margin-top: 0;
+    /* Sin margen superior para los títulos */
+}
+
+
+/* Estilos para la lista de hobbies */
+
+ul {
+    list-style-type: none;
+    /* Sin viñetas en la lista */
+    padding-left: 0;
+    /* Sin sangría a la izquierda de la lista */
+}
+
+
+/* Estilos para los elementos de la lista */
+
+li {
+    padding-left: 20px;
+    /* Sangría a la izquierda para los elementos de la lista */
+    position: relative;
+    /* Posición relativa para poder agregar una imagen antes del texto */
+}
+
+
+/* Estilos para el video */
+
+video {
+    width: 100%;
+    /* Video ocupando todo el ancho disponible */
+}
+
+
+/* Estilos para todas las imágenes */
+
+img {
+    max-width: 300px;
+    /* Tamaño máximo de ancho para las imágenes */
+    max-height: 200px;
+    /* Tamaño máximo de alto para las imágenes */
+    display: block;
+    /* Asegura que las imágenes no tengan espacios innecesarios debajo de ellas */
+    margin: 10px auto;
+    /* Añade margen y centra horizontalmente las imágenes */
+}
